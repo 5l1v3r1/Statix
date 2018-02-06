@@ -1,0 +1,70 @@
+<div class="row">
+	<div class="card-columns">
+		<div class="card text-dark badge-light mb-3">
+		  <div class="card-body">
+		    <h4 class="card-title">Yazılım Projelerim</h4>
+		    <p class="card-text">
+		        {% for project in content.projects %}
+		    	<a class="text-white badge badge-success badge-pill" href="{{ project.project_url }}">{{ project.project_name }}</a>   {{ project.project_desc }}<hr>
+		    	{% endfor %}		        
+				<a href="https://github.com/geekdinazor?tab=repositories" target="_blank" class="btn btn-outline-dark btn-lg btn-block">Daha fazla gör</a>
+		    </p>
+		  </div>
+		</div>
+
+		<div class="card text-dark badge-light mb-3">
+		  <div class="card-body">
+		    <h4 class="card-title">Katkıda Bulunduğum Projeler</h4>
+		    <p class="card-text">
+		    	{% for project in content.contribution %}
+		    	<a class="text-white badge badge-primary badge-pill" href="{{ project.project_url }}">{{ project.project_name }}</a>   {{ project.project_desc }}<hr>
+		    	{% endfor %}
+				<a href="https://github.com/geekdinazor?tab=repositories" target="_blank" class="btn btn-outline-dark btn-lg btn-block">Daha fazla gör</a>
+		    </p>
+		  </div>
+		</div>
+
+
+
+		<div class="card text-dark badge-light mb-3">
+		  <div class="card-body">
+		    <h4 class="card-title">Yazılım Çeviri Çalışmalarım</h4>
+		    <p class="card-text">
+		    	{% for project in content.translation %}
+		    	<a class="text-white badge badge-primary badge-pill" href="{{ project.project_url }}">{{ project.project_name }}</a>   {{ project.project_desc }}<hr>
+		    	{% endfor %}
+		    </p>
+		  </div>
+		</div>
+
+
+
+		<div class="card text-dark badge-light mb-3">
+		  <div class="card-body">
+		    <h4 class="card-title">Hacettepe Yemek Listesi</h4>
+		    <p class="card-text">
+		    	Hacettepe yemek listesi sayfasının yeni halini kullanışsız bulmam üzerine yeniden tasarladım. Sistem SKSDB web sayfasındaki XML API, Kahvaltı Listesi ve Kumanya listesindeki verileri kullanarak otomatik güncellenmektedir. <br><br>
+		    	<a href="/yemek" target="_blank" class="btn btn-outline-info btn-lg btn-block">Yemekte ne var ?</a>
+		    </p>
+		  </div>
+		</div>
+
+
+
+		<div class="card text-dark badge-warning mb-3">
+		  <a href="/dergi"><img src="img/16046108.jpg" class="img-fluid"></a>
+		  <div class="card-body">
+		    <p class="card-text">"Kitap ve Kahve Kokusu" Joomag interaktif e-dergi denemesi. Okumak için resme tıklayınız... </p>
+		  </div>
+		</div>
+
+		<div class="card text-white badge-danger mb-3">
+		  <img src="img/xlibris.png" class="img-fluid">
+		  <div class="card-body">
+		    <p class="card-text">"Kitap ve Kahve Kokusu" Joomag interaktif e-dergi denemesi. Okumak için resme tıklayınız... </p>
+		  </div>
+		</div>
+
+
+	</div>
+</div>

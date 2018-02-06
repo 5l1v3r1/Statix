@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta name="description" content="Furkan Kalkan, Hacettepe Üniversitesi Bilgi ve Belge Yönetimi Lisans Öğrencisi, Bilgi Profesyoneli, Açık kaynak destekçisi, Jr. Python ve Web geliştiricisi." />
+  	<meta name="keywords" content="furkan kalkan,bilgi ve belge yönetimi,information management,linux,web design,web tasarım,wordpress,python,library,kütüphane,kataloglama,marc,dewey,lc,library of congress" />
+  	<meta name="revisit-after" content="1 month">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Furkan Kalkan | {{ title }}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+  	<!-- Google Fonts CSS -->
+  	<link href="https://fonts.googleapis.com/css?family=Raleway:500,500i,700|Zilla+Slab+Highlight" rel="stylesheet"> 
+    <!-- Custom styles for this template -->
+    <link href="../css/styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="jumbotron header">
+      <h1 class="header-title display-4">FURKAN KALKAN</h1>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
+              <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse" id="navbarColor01">
+              <ul class="navbar-nav mr-auto">
+                {% for i in menu %}
+                <li class="nav-item {% if id == i %} active {% endif %}">
+                  <a class="nav-link" href="../{{ menu[i][0] }}">{{ menu[i][1] }}</a>
+                </li>
+                {% endfor %}
+
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html"><img class="flag flag-tr"> TÜRKÇE</a>
+                </li>
+              </ul>
+            </div>
+    </nav>

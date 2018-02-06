@@ -1,0 +1,58 @@
+<div class="row">
+	<div class="card-columns">
+		<div class="card text-dark badge-light mb-3">
+		  <div class="card-body">
+		    <h4 class="card-title">Software Projects</h4>
+		    <p class="card-text">
+		        {% for project in content.projects %}
+		    	<a class="text-white badge badge-success badge-pill" href="{{ project.project_url }}">{{ project.project_name }}</a>   {{ project.project_desc }}<hr>
+		    	{% endfor %}		        
+				<a href="https://github.com/geekdinazor?tab=repositories" target="_blank" class="btn btn-outline-dark btn-lg btn-block">See more</a>
+		    </p>
+		  </div>
+		</div>
+
+		<div class="card text-dark badge-light mb-3">
+		  <div class="card-body">
+		    <h4 class="card-title">Contributed Projects</h4>
+		    <p class="card-text">
+		    	{% for project in content.contribution %}
+		    	<a class="text-white badge badge-primary badge-pill" href="{{ project.project_url }}">{{ project.project_name }}</a>   {{ project.project_desc }}<hr>
+		    	{% endfor %}
+				<a href="https://github.com/geekdinazor?tab=repositories" target="_blank" class="btn btn-outline-dark btn-lg btn-block">See more</a>
+		    </p>
+		  </div>
+		</div>
+
+
+
+		<div class="card text-dark badge-light mb-3">
+		  <div class="card-body">
+		    <h4 class="card-title">Software Translations</h4>
+		    <p class="card-text">
+		    	{% for project in content.translation %}
+		    	<a class="text-white badge badge-primary badge-pill" href="{{ project.project_url }}">{{ project.project_name }}</a>   {{ project.project_desc }}<hr>
+		    	{% endfor %}
+		    </p>
+		  </div>
+		</div>
+
+
+
+		<div class="card text-dark badge-warning mb-3">
+		  <a href="/dergi"><img src="../img/16046108.jpg" class="img-fluid"></a>
+		  <div class="card-body">
+		    <p class="card-text">"Kitap ve Kahve Kokusu" Joomag interactive e-magazine. Click on image for preview... </p>
+		  </div>
+		</div>
+
+		<div class="card text-white badge-danger mb-3">
+		  <img src="../img/xlibris.png" class="img-fluid">
+		  <div class="card-body">
+		    <p class="card-text">"My Xlibris: From tablet to tablet</p>
+		  </div>
+		</div>
+
+
+	</div>
+</div>

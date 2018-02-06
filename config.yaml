@@ -1,0 +1,181 @@
+--- 
+pages: 
+  about: 
+    metadata: 
+      en: 
+        base: base/en/about.html
+        html: en/about.html
+        name: "About me"
+      id: 2
+      tr: 
+        base: base/tr/about.html
+        html: about.html
+        name: Hakkımda
+  bakarlar: 
+    attribute: 
+      hidden: false
+    metadata: 
+      en: 
+        base: base/en/mustsee.html
+        html: en/mustsee.html
+        name: "Buraya Bakarlar (Must See)"
+      id: 4
+      tr: 
+        base: base/tr/mustsee.html
+        html: mustsee.html
+        name: "Buraya Bakarlar"
+  contact: 
+    metadata: 
+      en: 
+        base: base/en/contact.html
+        html: en/contact.html
+        name: Contact
+      id: 3
+      tr: 
+        base: base/tr/contact.html
+        html: contact.html
+        name: İletişim
+  home: 
+    metadata: 
+      en: 
+        base: base/en/home.html
+        html: en/index.html
+        name: Home
+      id: 0
+      tr: 
+        base: base/tr/home.html
+        html: index.html
+        name: Anasayfa
+  projects: 
+    content: 
+      en: 
+        contribution: 
+          - 
+            project_desc: " Fast, secure and easy to use url shortener service"
+            project_name: "0w1/Troya Url Shortener"
+            project_url: "https://github.com/MertcanGokgoz/simple-url-shortener"
+          - 
+            project_desc: " Santa Clara is complete SaaS solution for Insurrance policy calculation and customer management."
+            project_name: "Santa Clara Insurrance Policy Service"
+            project_url: "#"
+          - 
+            project_desc: " Milis Installer is PyQT based graphical installer application for Milis Linux"
+            project_name: "Milis Yükleyici (Milis Linux Installer)"
+            project_url: "https://github.com/sonakinci41/Milis-Yukleyici"
+          - 
+            project_desc: " Web based remote control application designed for Milis Linux"
+            project_name: "Komutan/Komutan Next"
+            project_url: "https://github.com/milislinux-topluluk/komutan"
+        projects: 
+          - 
+            project_desc: " Commandline Instagram downloader written with Python that use Instagram API "
+            project_name: "InstaDown v2"
+            project_url: "https://github.com/geekdinazor/InstaDown"
+          - 
+            project_desc: " Game of Thrones themed roleplay game (RPG)"
+            project_name: GoTRPG
+            project_url: "https://github.com/geekdinazor/InstaDown"
+          - 
+            project_desc: " Hacettepe BBM103 Python Lab. assigments"
+            project_name: "BBM103 Assigments"
+            project_url: "https://github.com/geekdinazor/BBM103Assigments"
+          - 
+            project_desc: " Lightweight note taking webapp written with Flask microframework "
+            project_name: Not.py
+            project_url: "https://github.com/geekdinazor/not.py"
+          - 
+            project_desc: " Wordpress theme integration "
+            project_name: "Milis Linux Wordpress theme"
+            project_url: "https://milislinux.org"
+        translation: 
+          - 
+            project_desc: " Turkish Translation for TLP QT tool"
+            project_name: "TLP QT"
+            project_url: "https://www.transifex.com/rutku/tlp-qt/dashboard/"
+          - 
+            project_desc: " Turkish translation for Gnu Social core modules"
+            project_name: "Gnu Social"
+            project_url: "https://www.transifex.com/gnu-social/dashboard/all_resources/tr/?project=gnu-social"
+          - 
+            project_desc: " Turkish translation for Kalzium chemistry software"
+            project_name: Kalzium
+            project_url: "#"
+          - 
+            project_desc: " Turkish translation for Questions2Answers script"
+            project_name: Questions2Answers
+            project_url: "https://github.com/geekdinazor/q2a-turkish"
+      tr: 
+        contribution: 
+          - 
+            project_desc: " Basit, hızlı ve güvenli link kısaltma servisi"
+            project_name: "0w1/Troya Url Shortener"
+            project_url: "https://github.com/MertcanGokgoz/simple-url-shortener"
+          - 
+            project_desc: " Santa Clara, adını ilk sigorta poliçesine konu olan gemiden alan, Türkiye’de sigortacılık sektöründe kullanılan poliçe panellerindeki eksiklikleri gidermek amacıyla <a href=\"https://mertcangokgoz.com\">Mertcan Gökgöz</a> ile halen geliştirmeye devam ettiğimiz Django tabanlı bir web uygulama projesidir."
+            project_name: "Santa Clara Poliçe Ekran Uygulaması"
+            project_url: "#"
+          - 
+            project_desc: " Milis Linux için tasarlanan PyQT tabanlı bir Linux kurulum aracı"
+            project_name: "Milis Yükleyici"
+            project_url: "https://github.com/sonakinci41/Milis-Yukleyici"
+          - 
+            project_desc: " Milis Linux için tasarlanan web tabanlı yönetim aracı"
+            project_name: "Komutan/Komutan Next"
+            project_url: "https://github.com/milislinux-topluluk/komutan"
+        projects: 
+          - 
+            project_desc: " Instagram API kullanılarak yazılmış basit bir Instagram fotoğraf indirici Python betiği"
+            project_name: "InstaDown v2"
+            project_url: "https://github.com/geekdinazor/InstaDown"
+          - 
+            project_desc: " Game of Thrones temalı rol yapma oyunu (RPG)"
+            project_name: GoTRPG
+            project_url: "https://github.com/geekdinazor/InstaDown"
+          - 
+            project_desc: " Hacettepe BBM103 Python Lab. dersi ödev çözümlerim"
+            project_name: "BBM103 Assigments"
+            project_url: "https://github.com/geekdinazor/BBM103Assigments"
+          - 
+            project_desc: " Hızlı notlar almak için Flask tabanlı hafif bir not alma uygulaması"
+            project_name: Not.py
+            project_url: "https://github.com/geekdinazor/not.py"
+          - 
+            project_desc: " Milis Linux Websitesinde kullanılan Wordpress teması"
+            project_name: "Milis Linux Wordpress teması"
+            project_url: "https://milislinux.org"
+        translation: 
+          - 
+            project_desc: " TLP QT aracı için çeviri çalışması"
+            project_name: "TLP QT"
+            project_url: "https://www.transifex.com/rutku/tlp-qt/dashboard/"
+          - 
+            project_desc: " Gnu Social çekirdek modüllerinin Türkçe çevirisine katkı yapıldı"
+            project_name: "Gnu Social"
+            project_url: "https://www.transifex.com/gnu-social/dashboard/all_resources/tr/?project=gnu-social"
+          - 
+            project_desc: " Kalzium kimya yazılımının Türkçe çevirisine katkı yapıldı"
+            project_name: Kalzium
+            project_url: "#"
+          - 
+            project_desc: " Questions2Answers betiği için Türkçe yerelleştirme çalışması"
+            project_name: Questions2Answers
+            project_url: "https://github.com/geekdinazor/q2a-turkish"
+    metadata: 
+      en: 
+        base: base/en/projects.html
+        html: en/projects.html
+        name: Projects
+      id: 1
+      tr: 
+        base: base/tr/projects.html
+        html: projects.html
+        name: Projelerim
+  job:
+    attribute:
+      hidden: True
+    metadata:
+      id: 5
+      tr:
+        base: base/tr/job.html
+        html: job.html
+        name: "Freelancer Web Tasarımı ve Proje Ödevi Yapılır !"
