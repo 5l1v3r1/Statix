@@ -1,5 +1,6 @@
 import os
 import yaml
+from collections import OrderedDict
 from jinja2 import Environment, FileSystemLoader
 from css_html_js_minify import html_minify
 
@@ -25,6 +26,7 @@ def generatePages(lang):
 					menu[i]=[config["pages"][page]["metadata"][lang]["html"],config["pages"][page]["metadata"][lang]["name"]] 
 			else:
 				menu[i]=[config["pages"][page]["metadata"][lang]["html"],config["pages"][page]["metadata"][lang]["name"]]
+	menu = OrderedDict(sorted(menu.items(), key=lambda t: t[0]))
 
 	for page in config["pages"]:
 		if lang in config["pages"][page]["metadata"].keys():
